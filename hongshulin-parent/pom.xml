@@ -16,6 +16,7 @@
 		<module>hongshulin-web-core</module>
 		<module>hongshulin-model-core</module>
 		<module>hongshulin-dao-core</module>
+		<module>hongshulin-web-console</module>
 	</modules>
 
 	<properties>
