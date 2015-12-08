@@ -9,8 +9,15 @@
 	
 	<name>hongshulin-parent</name>
 	<url>http://maven.apache.org</url>
-
 	
+	<modules>
+		<module>hongshulin-service-core</module>
+		<module>hongshulin-common</module>
+		<module>hongshulin-web-core</module>
+		<module>hongshulin-model-core</module>
+		<module>hongshulin-dao-core</module>
+	</modules>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<springframework.version>4.0.2.RELEASE</springframework.version>
@@ -368,11 +375,5 @@
 		</dependencies>
 	</dependencyManagement>
 	
-  <modules>
-  	<module>hongshulin-service-core</module>
-  	<module>hongshulin-common</module>
-  	<module>hongshulin-web-core</module>
-  	<module>hongshulin-model-core</module>
-  	<module>hongshulin-dao-core</module>
-  </modules>
+
 </project>
