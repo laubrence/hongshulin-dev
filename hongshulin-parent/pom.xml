@@ -11,17 +11,17 @@
 	<url>http://maven.apache.org</url>
 	
 	<modules>
-		<module>hongshulin-service-core</module>
-		<module>hongshulin-common</module>
-		<module>hongshulin-web-core</module>
-		<module>hongshulin-model-core</module>
-		<module>hongshulin-dao-core</module>
-		<module>hongshulin-web-console</module>
+		<module>../hongshulin-service-core</module>
+		<module>../hongshulin-common</module>
+		<module>../hongshulin-web-core</module>
+		<module>../hongshulin-model-core</module>
+		<module>../hongshulin-dao-core</module>
+		<module>../hongshulin-web-console</module>
 	</modules>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<springframework.version>4.0.2.RELEASE</springframework.version>
+		<springframework.version>4.2.1.RELEASE</springframework.version>
 		<org.mybatis.mybatis>3.2.8</org.mybatis.mybatis>
 		<org.mybatis.mybatis-spring>1.2.2</org.mybatis.mybatis-spring>
 		<junit.version>4.7</junit.version>
@@ -163,37 +163,23 @@
 				<artifactId>mysql-connector-java</artifactId>
 				<version>${mysql-connector-java}</version>
 			</dependency>
+
 			<dependency>
 				<groupId>log4j</groupId>
 				<artifactId>log4j</artifactId>
-				<version>${log4j}</version>
+				<version>1.2.17</version>
 			</dependency>
-			<!-- logback begin -->
 			<dependency>
 				<groupId>org.slf4j</groupId>
 				<artifactId>slf4j-api</artifactId>
-				<version>${slf4j-api}</version>
-			</dependency>
-			<dependency>
-				<groupId>ch.qos.logback</groupId>
-				<artifactId>logback-core</artifactId>
-				<version>${logback-core}</version>
-			</dependency>
-			<dependency>
-				<groupId>ch.qos.logback</groupId>
-				<artifactId>logback-classic</artifactId>
-				<version>${logback-classic}</version>
-			</dependency>
-			<dependency>
-				<groupId>ch.qos.logback</groupId>
-				<artifactId>logback-access</artifactId>
-				<version>${logback-access}</version>
+				<version>1.6.6</version>
 			</dependency>
 			<dependency>
 				<groupId>org.slf4j</groupId>
-				<artifactId>jcl-over-slf4j</artifactId>
-				<version>${jcl-over-slf4j}</version>
+				<artifactId>slf4j-log4j12</artifactId>
+				<version>1.6.6</version>
 			</dependency>
+			
 			<!-- logback end -->
 			<!-- jstl jsp页面标签 -->
 	        <dependency>

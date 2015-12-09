@@ -7,6 +7,7 @@
 	  <artifactId>hongshulin-parent</artifactId>
 	  <groupId>com.laubrence</groupId>
 	  <version>0.0.1-SNAPSHOT</version>
+	  <relativePath>../hongshulin-parent/pom.xml</relativePath>
 	</parent>
 	
 	<artifactId>hongshulin-common</artifactId>
