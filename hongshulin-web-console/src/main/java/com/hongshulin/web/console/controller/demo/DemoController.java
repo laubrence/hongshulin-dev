@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/demo/")
 public class DemoController {
 	
-	@RequestMapping("index")
+	@RequestMapping("blank")
 	public String test(HttpServletRequest request,Model model){
-	    return "index";       
+	    return "demo/blank";       
 	}
 
 }
